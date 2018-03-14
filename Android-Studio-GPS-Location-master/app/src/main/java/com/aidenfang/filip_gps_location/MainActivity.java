@@ -18,6 +18,17 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.view.View.OnClickListener;
 
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.JsonObjectRequest;
+import com.android.volley.toolbox.Volley;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+
 public class MainActivity extends AppCompatActivity {
 
     private Button button;
@@ -44,6 +55,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onLocationChanged(Location location) {
                 textView.append("\n" + location.getLatitude() + " " + location.getLongitude());
+                postLocationData(location);
+                locationManager.removeUpdates(this);
             }
 
             @Override
@@ -65,6 +78,36 @@ public class MainActivity extends AppCompatActivity {
 
         configureButton();
 
+    }
+
+    private void postLocationData(Location location) {
+        if(location != null){
+            RequestQueue queue = Volley.newRequestQueue(this);
+            String url = "http://www.mocky.io/v2/5aa92bc23200002a2d165b87";
+            JSONObject data = new JSONObject();
+            try {
+                data.put("lat",location.getLatitude());
+                data.put("lon",location.getLongitude());
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+            JsonObjectRequest request = new JsonObjectRequest(Request.Method.POST, url,data,new Response.Listener<JSONObject>(){
+                @Override
+                public void onResponse(JSONObject resp) {
+                    if(resp != null){
+                        Util.showAlert(MainActivity.this,"Response - 200",resp.toString());
+                    }else{
+                        Util.showAlert(MainActivity.this,"Response - 200","Empty");
+                    }
+                }
+            },new Response.ErrorListener(){
+                @Override
+                public void onErrorResponse(VolleyError volleyError) {
+                    Util.showAlert(MainActivity.this,String.valueOf(volleyError.networkResponse.statusCode),volleyError.getMessage());
+                }
+            });
+            queue.add(request);
+        }
     }
 
     //@Override
