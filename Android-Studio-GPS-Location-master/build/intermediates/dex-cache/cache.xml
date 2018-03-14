@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/Jayakrishnan/.android/build-cache/79c6b230f74f247a617d588e66dc38f224c8d8fb/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/Users/Jayakrishnan/AndroidStudioProjects/Android-Studio-GPS-Location-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1bf4d40c98f69f8e783c6f543582f4115207c7c1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Jayakrishnan/.android/build-cache/96068d1363d412a93a4b744a52f8a08d10069706/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="/Users/Jayakrishnan/AndroidStudioProjects/Android-Studio-GPS-Location-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a3abdc55861b490561920d70c7404bc59eeea909/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Jayakrishnan/.android/build-cache/8bba3126ad618c868db04d3878b814539f714f4e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/Users/Jayakrishnan/AndroidStudioProjects/Android-Studio-GPS-Location-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bc3b253c72c091bed5f1db7333bd3f9fd12fd654/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Jayakrishnan/.android/build-cache/619b8231cf38362f5fb925831f05dc34ac72542a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/Users/Jayakrishnan/AndroidStudioProjects/Android-Studio-GPS-Location-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_02c0f775184c640d263548d0387369eb96b04c83/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Jayakrishnan/AndroidStudioProjects/Android-Studio-GPS-Location-master/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="f7469e7ad81af27d788ffc557c8718d0727e7ac9">
+        <dex dex="/Users/Jayakrishnan/AndroidStudioProjects/Android-Studio-GPS-Location-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_f68fd0b35a3b0cefde6addc2decb671cff6362cb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Jayakrishnan/.android/build-cache/1a597052a2cea2dc3bfc6f6341bf0a62bfdb9e1a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="/Users/Jayakrishnan/AndroidStudioProjects/Android-Studio-GPS-Location-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_464eb7a1d9bf6433da5825bd452127c545438bb0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Jayakrishnan/.android/build-cache/a4d2e57b20e49a115cb1cc41db200f3a5dd32fe5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Jayakrishnan/AndroidStudioProjects/Android-Studio-GPS-Location-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6ae2725c27ac1f7aaba15ff66f0d640d91e2a2e5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Jayakrishnan/.android/build-cache/9f5d52d0919425b25e823ddbe3f35ca99f3521a7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/Users/Jayakrishnan/AndroidStudioProjects/Android-Studio-GPS-Location-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_894a24770c3244edffdd311855a85f1c14620be9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Jayakrishnan/AndroidStudioProjects/Android-Studio-GPS-Location-master/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="12920f9016b8b05acbc2af7cdc13cef6946fe7d3">
+        <dex dex="/Users/Jayakrishnan/AndroidStudioProjects/Android-Studio-GPS-Location-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_078d31c9525a7dce2ba8a9e6b2630c18ab510626/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Jayakrishnan/.android/build-cache/395a1c8ab63d5767ad2446d93f61c80902215b40/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="/Users/Jayakrishnan/AndroidStudioProjects/Android-Studio-GPS-Location-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_64ac0d6f2fd5acd4a95768e8f8b35f0731655c24/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Jayakrishnan/.android/build-cache/04e3a645fab48bafa7b0574223c045574dc70f7a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/Users/Jayakrishnan/AndroidStudioProjects/Android-Studio-GPS-Location-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_49a2c9185ffcc7a3fe1e91adaa92bbf6d8a7036f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Jayakrishnan/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="/Users/Jayakrishnan/AndroidStudioProjects/Android-Studio-GPS-Location-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.2.0_ab833feadd09f49c78f8e4c394d7ace82d4fa8bf/classes.dex" />
+    </item>
+
+</items>
